@@ -4,53 +4,6 @@
      <ul>
       <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
     </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <ul>
-      <li v-for="(item, index) in content" :key='index'>{{item.title}}</li>
-    </ul>
-    <router-link to="/">The End</router-link>
   </div>
 </template>
 
