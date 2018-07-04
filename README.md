@@ -1,8 +1,8 @@
 # vue-ssr-demo
 
-> A Vue.js project
+> vue 服务端渲染demo（可能不定量加上vue其他特性的尝试）
 
-## Build Setup
+## 运行 （dev）
 
 ``` bash
 # install dependencies
@@ -11,11 +11,16 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## DONE
+* 路由前进刷新 后退不刷新
+* 路由后退回到之前视区位置（效果同V2EX）
+
+## TODO
+
+* 通过vuex的action发请求仍存在跨域问题
+* 数据预取
+* 自动打开浏览器窗口（opn）
+* npm run build 调通
+

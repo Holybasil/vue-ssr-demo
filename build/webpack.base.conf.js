@@ -12,11 +12,7 @@ function resolve(dir) {
 }
 
 module.exports = {
-  // context: path.resolve(__dirname, "../"),
   devtool: config.dev.devtool,
-  // entry: {
-  //   app: "./src/main.js"
-  // },
   output: {
     path: path.resolve(__dirname, "../dist"),
     publicPath: "/dist/",
