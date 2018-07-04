@@ -4,7 +4,8 @@ Vue.use(Router)
 
 export function createRouter() {
   return new Router({
-    mode: "history",
+    // mode: "history",
+    // fallback: false,
     routes: [
       {
         path: "/",
